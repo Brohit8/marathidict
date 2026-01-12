@@ -83,7 +83,7 @@ export default function Home() {
       <header className="sticky top-0 z-10 backdrop-blur-xl bg-stone-50/80 dark:bg-stone-950/80 border-b border-stone-200 dark:border-stone-800">
         <div className="max-w-2xl mx-auto px-4 py-6">
           <h1 className="text-2xl font-semibold text-stone-900 dark:text-stone-100 mb-4">
-            मराठी शब्दकोश
+            Marathi to English Dictionary
           </h1>
 
           {/* Search Input */}
