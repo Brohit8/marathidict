@@ -166,11 +166,6 @@ export default function Home() {
             </div>
 
             <div className="mt-4 pt-4 border-t border-stone-200 dark:border-stone-800 flex gap-3 text-xs text-stone-400">
-              {selectedEntry.t && (
-                <span className="px-2 py-1 rounded-full bg-stone-100 dark:bg-stone-800">
-                  {selectedEntry.t}
-                </span>
-              )}
               {selectedEntry.s && (
                 <span className="px-2 py-1 rounded-full bg-stone-100 dark:bg-stone-800">
                   {selectedEntry.s}
