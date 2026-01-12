@@ -93,7 +93,7 @@ export default function Home() {
               type="text"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder={loading ? "Loading dictionary..." : "शब्द टाइप करा..."}
+              placeholder={loading ? "Loading dictionary..." : "Type a Marathi word..."}
               disabled={loading}
               className="w-full px-4 py-3 text-lg rounded-xl border border-stone-300 dark:border-stone-700
                          bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-100
@@ -167,7 +167,7 @@ export default function Home() {
 
             <div className="mt-4 pt-4 border-t border-stone-200 dark:border-stone-800 flex gap-3 text-xs text-stone-400">
               {selectedEntry.s && (
-                <span className="px-2 py-1 rounded-full bg-stone-100 dark:bg-stone-800">
+                <span className="px-2 py-1 rounded-full bg-stone-100 dark:bg-stone-800 capitalize">
                   {selectedEntry.s}
                 </span>
               )}
@@ -220,7 +220,7 @@ export default function Home() {
         {!loading && !query && (
           <div className="text-center py-20">
             <p className="text-stone-400 dark:text-stone-500 text-lg">
-              शब्द शोधण्यासाठी वर टाइप करा
+              Type above to search
             </p>
             <p className="text-stone-400 dark:text-stone-600 text-sm mt-2">
               89,000+ entries from Molesworth & Berntsen
